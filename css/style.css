@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+body {
+    background-color: #eee;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.side {
+    padding: 100px;
+    text-align: center;
+    width: 40%;
+    min-height: 80vh;
+}
+.side h2 {
+    font-size: 35px;
+    margin-bottom: 80px;
+}
+.side.left {
+    background-color: #1e92a7;
+    color: #fff;
+    position: relative;
+}
+.side.right {
+    background-color: #fff;
+    color: #1e92a7;
+    position: relative;
+}
+.side.right .sign-in .box .field {
+     display: flex;
+     margin-bottom: 10px;
+}
+.side.right .sign-in .box .field i {
+    position: relative;
+    top: 16px;
+    left: -23%;
+}
+.side.right .sign-in .box input {
+    display: block;
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #eee;
+    color: #333;
+    margin: 10px auto;
+    padding: 2px 8px;
+}
+.side.right .box button {
+    background-color: #1e92a7;
+    color: #fff;
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    margin-right: 12px;
+}
+.side.left p {
+    font-size: 15px;
+    margin-bottom: 38px;
+}
+.side.left button {
+    background-color: #fff;
+    color: #1e92a7;
+    border: none;
+    width: 250px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.side.left i {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+.side.left .sign-face .sign {
+    padding-top: 50px;
+}
+.log-in .full-name {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.log-in .full-name input {
+    width: 121px;
+    height: 30px;
+    margin: 2px 4px;
+    background-color: #eee;
+    border: none;
+    border-radius: 5px;
+    padding: 2px 8px;
+}
+.log-in .em-pa input {
+    display: block;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    background-color: #eee;
+    padding: 2px 8px;
+    margin: 10px auto;
+}
+.log-in .em-pa button {
+    background-color: #1e92a7;
+    color: #fff;
+    border: none;
+    width: 250px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.log-in .em-pa .agree-terms-privacy {
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+}
+.log-in .em-pa .agree-terms-privacy input {
+    width: 15px;
+    margin: 0 2px; 
+}
+.log-in .em-pa .agree-terms-privacy a {
+    color: #1e92a7;
+
+}
+.log-in {
+    display: none;
+}
+.sign-face {
+    display: none;
+}
